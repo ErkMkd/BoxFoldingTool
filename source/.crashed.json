@@ -1,0 +1,87 @@
+{
+    "shapes": [
+        {
+            "vertices": [
+                [
+                    8.199999809265137,
+                    14.399999618530273
+                ],
+                [
+                    10.600000381469727,
+                    -1.399999976158142
+                ],
+                [
+                    -0.8999999761581421,
+                    -4.400000095367432
+                ],
+                [
+                    -9.199999809265137,
+                    3.299999952316284
+                ],
+                [
+                    -5.900000095367432,
+                    14.399999618530273
+                ],
+                [
+                    -1.0,
+                    18.0
+                ]
+            ],
+            "folds": [],
+            "splits": [],
+            "holes": [],
+            "closed": true,
+            "thickness": 0.05,
+            "color": [
+                1.0,
+                1.0,
+                1.0,
+                1.0
+            ],
+            "edit_box": {
+                "size": [
+                    19.799999237060547,
+                    22.399999618530273
+                ],
+                "position": [
+                    0.6999998092651367,
+                    6.799999713897705
+                ],
+                "angle": 0,
+                "scale": [
+                    1.0,
+                    1.0
+                ],
+                "pivot": [
+                    0.6999998092651367,
+                    6.799999713897705
+                ]
+            }
+        }
+    ],
+    "backdrops": {
+        "inside_map": "textures/default.jpg"
+    },
+    "layout": {
+        "view_scale": 50,
+        "cursor_position": [
+            0.0,
+            0.0
+        ],
+        "backdrops_intensity": 1,
+        "grid_size": 1,
+        "grid_subdivisions": 10,
+        "grid_intensity": 1
+    },
+    "version": "1.5.1",
+    "fatal_error_stack": [
+        "Traceback (most recent call last):\n",
+        "  File \"D:/Movida/gits/gitlab_vps/box-folding-tool/source/main.py\", line 752, in <module>\n    Main.state(vid, dt)\n",
+        "  File \"D:/Movida/gits/gitlab_vps/box-folding-tool/source/main.py\", line 592, in state_Draw2D\n    Draw2D.ui(cls.mouse, cls.keyboard, cls.resolution)\n",
+        "  File \"D:\\Movida\\gits\\gitlab_vps\\box-folding-tool\\source\\Draw2D.py\", line 3643, in ui\n    cls.call_ui_state(mouse, keyboard, resolution)\n",
+        "  File \"D:\\Movida\\gits\\gitlab_vps\\box-folding-tool\\source\\Draw2D.py\", line 3578, in call_ui_state\n    cls.ui_state[\"function\"](mouse, keyboard, resolution)\n",
+        "  File \"D:\\Movida\\gits\\gitlab_vps\\box-folding-tool\\source\\Draw2D.py\", line 3654, in ui_move_vertex\n    cls.mouse_move_vertex(mouse, resolution)\n",
+        "  File \"D:\\Movida\\gits\\gitlab_vps\\box-folding-tool\\source\\Draw2D.py\", line 2909, in mouse_move_vertex\n    p = shape[\"vertices\"][cls.current_vertex[\"idx\"]]\n",
+        "TypeError: list indices must be integers or slices, not str\n"
+    ]
+}
